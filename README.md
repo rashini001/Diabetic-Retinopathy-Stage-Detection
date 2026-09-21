@@ -26,16 +26,7 @@ Trained on 2,750 fundus images across 5 classes, evaluated on a held-out stratif
 | Proliferate DR | 0.409 | 0.409 | 0.409 | 44 |
 | Severe DR | 0.286 | 0.500 | 0.364 | 28 |
 
-<p align="center">
-  <img src="outputs/confusion_matrix_normalised.png" width="480" alt="Confusion matrix">
-</p>
-
 The model separates Healthy from disease almost perfectly (99% recall). Among disease stages, most confusion falls on **adjacent severity levels** (e.g. Mild ↔ Moderate) rather than across the full spectrum — consistent with diabetic retinopathy being a progressive, ordinal condition rather than distinct unrelated categories. See [Limitations](#limitations) below.
-
-<p align="center">
-  <img src="outputs/curves_phase1_head.png" width="46%" alt="Phase 1 training curves">
-  <img src="outputs/curves_phase2_finetune.png" width="46%" alt="Phase 2 training curves">
-</p>
 
 ---
 
