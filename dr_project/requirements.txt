@@ -1,0 +1,18 @@
+# Core deep learning
+tensorflow>=2.15,<2.17
+
+# Data / imaging
+numpy>=1.26
+pandas>=2.0
+opencv-python-headless>=4.9
+Pillow>=10.0
+
+# Metrics / splitting
+scikit-learn>=1.4
+
+# Plotting
+matplotlib>=3.8
+
+# Notebook environment 
+jupyter>=1.0
+ipykernel>=6.29
